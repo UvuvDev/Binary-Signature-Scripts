@@ -1,2 +1,2 @@
 # Binary-Signature-Scripts
-YARA binary signature scripts to help LLMs triage malware analysis faster.
+This repo is some YARA binary signature scripts to help LLMs triage malware analysis faster. LLMs tend to waste time on finding whether something is UPX packed, Pyinstaller, self modifying, etc. which leads to precious context being used up, often eat up to 30-40% of the session. Offloading as much of the info extraction as possible to code gives the LLM better starter information to properly reverse engineer the binary.
